@@ -278,5 +278,6 @@ License: creative commons CC-BY-NC-SA
     <include name="abstract">./assets/bg4.xml</include>
     <include name="vinyl">./assets/bg1.xml</include>
     <include name="lake">./assets/bg3.xml</include>
+    <include name="SimpleLife">./assets/bg5.xml</include>
   </subset>
 </theme>

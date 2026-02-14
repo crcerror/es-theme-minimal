@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>4</formatVersion>
   <view name="system">
@@ -6,10 +6,20 @@
       <path>./bg5.png</path>
       <color>C8C8C8</color>
     </image>
+    <image name="logo">
+      <reflexion>0 0</reflexion>
+    </image>
+    <text name="logoText">
+      <reflexion>0 0</reflexion>
+    </text>
  <carousel name="systemcarousel">
-        <pos>0 0.48</pos>
+      <pos>0 0.2</pos>
       <size>1 0.3925</size>
-    </carousel>
+      <origin>0 0</origin>
+      <logoScale>1</logoScale>
+      <logoSize>0.25 0.155</logoSize>
+      <logoPos>-1 0</logoPos>
+ </carousel>
   </view>
   <view name="basic, detailed, grid">
     <image name="background" extra="true">
