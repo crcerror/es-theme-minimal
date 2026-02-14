@@ -67,3 +67,9 @@ Get in touch with the original theme author in [this thread via RetroPie Forum](
 ### `V1.xml` theme
 
 ![](https://i.imgur.com/5UR5yTF.png)
+
+# Other things
+
+Please give credits if you use this theme
+
+* for example YOU @ https://github.com/DarrenCarol/Simple_Life (thx for nothing and taking all my SVGs but thx for your background pic that I've added now) - 14.02.2026
