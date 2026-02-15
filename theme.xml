@@ -2,6 +2,8 @@
 <!-- 
 Theme: Minimal
 Original author: Lilbud
+Maintained: 2021+ crcerror, thx @fabricecaruso for the style assets
+Updated: On 14.02.2026
 License: creative commons CC-BY-NC-SA
 -->
 <theme>
@@ -40,7 +42,7 @@ License: creative commons CC-BY-NC-SA
     </menuText>
     <menuText name="menutext">
       <fontPath>./assets/SST.ttf</fontPath>
-      <fontSize>0.038</fontSize>
+      <fontSize>0.025</fontSize>
       <color>A6C6D1</color>
       <selectorColor>0F85A5</selectorColor>
       <selectorColorEnd>0F6585</selectorColorEnd>
@@ -53,9 +55,9 @@ License: creative commons CC-BY-NC-SA
     </menuTextSmall>
     <menuBackground name="menubg">
       <color>0A354A</color>
-      <cornerSize>32 32</cornerSize>
+      <cornerSize>52 52</cornerSize>
       <path>./assets/frame.png</path>
-    </menuBackground>
+      </menuBackground>
   </view>
   <view name="system">
     <image name="staticBackground">
@@ -74,12 +76,13 @@ License: creative commons CC-BY-NC-SA
     </helpsystem>
     <image name="logo">
       <path>./art/${system.theme}.svg</path>
+      <path>./art/${system.theme}.png</path>
       <reflexion>0.16 0.0</reflexion>
       <!-- <verticalAlignment>bottom</verticalAlignment> -->
       <reflexionOnFrame>true</reflexionOnFrame>
     </image>
     <text name="logoText">
-      <fontPath>./assets/miss.ttf</fontPath>
+    <fontPath>./assets/miss.ttf</fontPath>
       <fontSize>0.092</fontSize>
       <color>FFFFFFFF</color>
       <reflexion>0.16 0.0</reflexion>
@@ -238,6 +241,7 @@ License: creative commons CC-BY-NC-SA
       <backgroundColor>FFFFFF00</backgroundColor>
       <imageColor>FFFFFFFF</imageColor>
     </gridtile>
+
     <!--
     <text name="gridtile">
       <color>D0D0D0</color>
@@ -251,6 +255,7 @@ License: creative commons CC-BY-NC-SA
       <glowColor>${glowColor}</glowColor>
       <glowSize>3</glowSize>
     </text>-->
+
   </view>
   <view name="system">
     <carousel name="systemcarousel">
@@ -272,12 +277,14 @@ License: creative commons CC-BY-NC-SA
       <fontSize>0.03</fontSize>
     </text>
   </view>
+
+  <!-- Assets for different background -->
   <subset name="background">
     <include name="default"/>
-    <include name="earth">./assets/bg2.xml</include>
-    <include name="abstract">./assets/bg4.xml</include>
-    <include name="vinyl">./assets/bg1.xml</include>
-    <include name="lake">./assets/bg3.xml</include>
+    <include name="Earth">./assets/bg2.xml</include>
+    <include name="Abstract">./assets/bg4.xml</include>
+    <include name="Vinyl">./assets/bg1.xml</include>
+    <include name="Lakeview">./assets/bg3.xml</include>
     <include name="SimpleLife">./assets/bg5.xml</include>
   </subset>
 </theme>
